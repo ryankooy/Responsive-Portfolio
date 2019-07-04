@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+    background-color: #4aaaa5;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    border: solid #cccccc;
+    border-width: 0px 0px 5px 0px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 96px;
+    background-color: #ffffff;
+    z-index: 5;
+}
+
+.navbar {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 25px 35px 30px 35px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.buttons {
+    width: 275px;
+    font-size: 14px;
+    padding: 38px 0px 0px 0px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    float: right;
+}
+
+#about {
+    float: left;
+    width: 33.3%;
+}
+
+#portfolio {
+    margin-left: -4px;
+    float: left;
+    width: 33.3%;
+}
+
+#contact {
+    margin-left: 4px;
+    float: left;
+    width: 33.3%;
+}
+
+.section2 {
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    width: 960px;
+    background-color: #ffffff;
+    z-index: 3;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    word-wrap: break-word;
+}
+
+.text, .port {
+    padding: 0px 20px 20px 20px;
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.port {
+    height: 550px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 27px;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    border-width: 0px 0px 3px 0px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    float: left;
+    max-width: 180px;
+    max-height: 180px;
+    margin: 0 20px 15px 0;
+    border: 3px solid #ffffff;
+    box-shadow: 7px 7px 5px #777777;
+}
+
+footer {
+    color: #cccccc;
+    font-size: 12px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    bottom: 0px;
+    margin-top: 20px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    z-index: 3;
+}
+
+input, textarea, select {
+    width: 100%;
+}
+
+textarea {
+    height: 80px;
+}
+
+#submit {
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container, .image {
+    float: left;
+}
+
+.container {
+    position: relative;
+}
+
+.title {
+    width: 91%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60px;
+    top: 55%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 18px;
+    position: absolute;
+    z-index: 2;
+}
+
+.box:link, .box:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+.box:hover {
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 16.6px;
+    color: #4aaaa5;
+    text-decoration: none;
+    -webkit-transition: font-size color;
+    -moz-transition: font-size color;
+    -o-transition: font-size color;
+    transition: all 0.1s ease-in;
+}
+
+.box:active {
+    font-size: 14px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 980px) {
+
+    .section2 {
+        max-width: 700px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .section2 {
+        max-width: 500px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    header {
+        position: static;
+        width: 100%;
+        margin: 0 auto auto 0;
+    }
+    
+    .section2 {
+        margin-left: 0%;
+        margin-right: 50%;
+    }
+
+    .section2 .text {
+        max-width: 450px;
+        height: auto;
+    }
+
+}
