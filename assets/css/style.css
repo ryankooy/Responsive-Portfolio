@@ -160,8 +160,19 @@ textarea {
     box-shadow: 7px 7px 5px #777777;
     z-index: 2;
 }
+
 .port-height {
-    height: 520px;
+    height: 600px;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    z-index: 2;
+    padding: 20px 20px 15px 15px;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 #contain {
@@ -224,7 +235,11 @@ textarea {
 @media screen and (max-width: 768px) {
 
     .port-height {
-        height: 920px;
+        height: 1700px;
+    }
+    
+    .section2 {
+        width: 100%;
     }
 
 }
@@ -258,10 +273,28 @@ textarea {
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
 
-    .paragraph {
-        clear: both;
+    .pro-pic {
+        max-width: 150px;
+    }
+    
+    .port-height {
+        height: 1800px;
+    }
+        
+    .portfolio, .title {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .section2 {
+        margin-bottom: 200px;
+    }
+
+    .text {
+        font-size: 10px;
+        line-height: 15px;
     }
 
 }
