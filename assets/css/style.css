@@ -271,6 +271,10 @@ textarea {
         float: right;
     }
 
+    .section2 {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -290,6 +294,7 @@ textarea {
     
     .section2 {
         margin-bottom: 200px;
+        width: 100%;
     }
 
     .text {
