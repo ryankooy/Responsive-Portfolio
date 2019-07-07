@@ -268,15 +268,9 @@ textarea {
     .pro-pic {
         height: 100%;
         width: 100%;
-<<<<<<< HEAD
         max-height: 250px;
         max-width: 250px;
         margin-left: 30px;
-=======
-        max-height: 200px;
-        max-width: 200px;
-        margin-left: 10px;
->>>>>>> 42fd02a0e81b84a1cb4055f6b26cc5bcc153b855
         margin-bottom: 30px;
         float: right;
     }
